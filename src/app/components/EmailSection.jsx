@@ -12,12 +12,12 @@ const EmailSection = () => {
         <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-green-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-3/4 -translate-y-0/0">
         </div>
       <div className="z-10">
-        <h5 className="text-xl font-bold text-white my-2">Let´s Connect </h5>
+        <h5 className="text-xl font-bold text-white my-2">Mis redes de contacto </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
-          incidunt ducimus odit aliquid, dolore ab molestias labore unde
-          expedita, nisi numquam voluptas corporis alias atque, necessitatibus
-          et. Commodi, consequuntur modi!
+
+
+        ¿Tienes alguna pregunta, comentario o proyecto en mente? ¡No dudes en contactarme a través de cualquiera de los siguientes canales! Estoy aquí para ayudar y colaborar contigo en tu próximo proyecto.
+    
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://www.linkedin.com/in/bruno-mallcco-arche-9b369b236/" passHref target="_blank">

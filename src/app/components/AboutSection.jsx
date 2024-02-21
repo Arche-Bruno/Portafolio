@@ -13,6 +13,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2" >
 
         <li>Firebase</li>
+        <li>Git - Github</li>
         <li>MySQL</li>
         <li>Javascript</li>
         <li>React.js</li>
