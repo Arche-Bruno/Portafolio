@@ -65,7 +65,7 @@ const projectsData = [
     image:proyect6Image,
     tag:['Todos', 'Mobile'],
     alt:"aa",
-    url:"https://imaginative-daifuku-458755.netlify.app/",
+    url:"https://iceberg-training-peru.netlify.app/",
    },
 
 ]
