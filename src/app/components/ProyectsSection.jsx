@@ -7,6 +7,7 @@ import proyect2Image from '../images/imgProyects/proyect2.png';
 import proyect3Image from '../images/imgProyects/proyect3.png';
 import proyect4Image from '../images/imgProyects/proyect4.png';
 import proyect5Image from '../images/imgProyects/proyect5.png';
+import proyect6Image from "../images/imgProyects/proyect6.png"
 import ProjectTag from './ProjectTag';
 
 
@@ -57,6 +58,15 @@ const projectsData = [
    alt:"aa",
    url:"https://65021b1075adcf466873301d--unique-blini-38ab97.netlify.app/",
   },
+  {
+    id:6,
+    title:'Web-info',
+    description:'construction website',
+    image:proyect6Image,
+    tag:['Todos', 'Mobile'],
+    alt:"aa",
+    url:"https://imaginative-daifuku-458755.netlify.app/",
+   },
 
 ]
 

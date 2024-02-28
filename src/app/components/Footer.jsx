@@ -9,7 +9,7 @@ const Footer = () => {
         <Image src={icon} width={160} height={160}></Image>
         </div>
 
-        <p className="text-slate-600">All rigths reservs : Bruno Mallcco Arche</p>{" "}
+        <p className="text-slate-600"> Bruno Mallcco Arche</p>{" "}
       </div>
     </footer>
   );
