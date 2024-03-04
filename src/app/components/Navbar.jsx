@@ -12,15 +12,15 @@ import Image from "next/image";
 const navLinks = [
   {
     title: "Sobre mi",
-    path: "/about", // Reemplaza con la ruta correcta de tu página "Sobre mi"
+    path: "#about", // Reemplaza con la ruta correcta de tu página "Sobre mi"
   },
   {
     title: "Proyectos",
-    path: "/projects", // Reemplaza con la ruta correcta de tu página "Proyectos"
+    path: "#projects", // Reemplaza con la ruta correcta de tu página "Proyectos"
   },
   {
     title: "Contacto",
-    path: "/contact", // Reemplaza con la ruta correcta de tu página "Contacto"
+    path: "#contact", // Reemplaza con la ruta correcta de tu página "Contacto"
   },
 ];
 
