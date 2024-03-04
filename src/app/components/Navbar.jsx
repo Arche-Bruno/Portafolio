@@ -12,17 +12,18 @@ import Image from "next/image";
 const navLinks = [
   {
     title: "Sobre mi",
-    path: "#about",
+    path: "/about", // Reemplaza con la ruta correcta de tu página "Sobre mi"
   },
   {
     title: "Proyectos",
-    path: "#projects",
+    path: "/projects", // Reemplaza con la ruta correcta de tu página "Proyectos"
   },
   {
     title: "Contacto",
-    path: "#contact",
+    path: "/contact", // Reemplaza con la ruta correcta de tu página "Contacto"
   },
 ];
+
 
 const Navbar = () => {
   const [navbarOpen, setNavBarOpen] = useState(false);
