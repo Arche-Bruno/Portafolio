@@ -1,5 +1,14 @@
 "use client";
 import React, { useState, useTransition } from "react";
+import htmlIcon from "../images/svgs/html.svg"
+import nodeIcon from "../images/svgs/node.svg"
+import gitIcon from "../images/svgs/git.svg"
+import mysqlIcon from "../images/svgs/mysql.svg"
+import firebaseIcon from "../images/svgs/firebase.svg"
+import javascriptIcon from "../images/svgs/js.svg"
+import nextIcon from "../images/svgs/next.svg"
+import reactIcon from "../images/svgs/react.svg"
+import cssIcon from "../images/svgs/css.svg"
 
 import Image from "next/image";
 import imgPc from "../images/compu.jpg";
@@ -10,16 +19,18 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2" >
+      <ul className="flex flex-col gap-2 list-disc pl-2" >
 
-        <li>Firebase</li>
-        <li>Git - Github</li>
-        <li>MySQL</li>
-        <li>Javascript</li>
-        <li>React.js</li>
-        <li>Next.js</li>
-        <li>HTML</li>
-        <li>CSS</li>
+
+        <li className="flex items-center gap-2"> <Image src={nodeIcon} alt="HTML Icon" width={20} height={20} /> Node.js</li>
+        <li className="flex items-center gap-2"><Image src={gitIcon} alt="HTML Icon" width={20} height={20} /> Git - Github</li>
+        <li className="flex items-center gap-2"> <Image src={firebaseIcon} alt="HTML Icon" width={20} height={20} />Firebase</li>
+        <li className="flex items-center gap-2"> <Image src={mysqlIcon} alt="HTML Icon" width={20} height={20} />MySQL</li>
+        <li className="flex items-center gap-2"><Image src={javascriptIcon} alt="HTML Icon" width={20} height={20} /> Javascript</li>
+        <li className="flex items-center gap-2"><Image src={reactIcon} alt="HTML Icon" width={20} height={20} /> React.js</li>
+        <li className="flex items-center gap-2"><Image src={nextIcon} alt="HTML Icon" width={20} height={20} /> Next.js</li>
+        <li className="flex items-center gap-2"> <Image src={htmlIcon} alt="HTML Icon" width={20} height={20} /> HTML</li>
+        <li className="flex items-center gap-2"><Image src={cssIcon} alt="HTML Icon" width={20} height={20} /> CSS</li>
 
       </ul>
     ),
@@ -41,7 +52,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Red Social - Cachueleate.com</li>
-        <li>web site - Nuevos Horizontes.com (Agency Travel)</li>
+        <li>Creación de Pagina web - Nuevos Horizontes.com (Agencia de viajes)</li>
+        <li>Creación de Pagina web - iceberg-training.com (Constructora)</li>
       </ul>
     ),
   },
