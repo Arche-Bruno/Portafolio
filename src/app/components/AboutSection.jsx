@@ -20,17 +20,27 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="flex flex-col gap-2 list-disc pl-2" >
+        <li className="flex items-center gap-2"><Image src={javascriptIcon} alt="HTML Icon" width={20} height={20} /> Javascript</li>
+        <li className="flex items-center gap-2"><Image src={reactIcon} alt="HTML Icon" width={20} height={20} /> React.js</li>
+        <li className="flex items-center gap-2"><Image src={nextIcon} alt="HTML Icon" width={20} height={20} /> Next.js</li>
+        <li className="flex items-center gap-2"> <Image src={htmlIcon} alt="HTML Icon" width={20} height={20} /> HTML</li>
+        <li className="flex items-center gap-2"><Image src={cssIcon} alt="HTML Icon" width={20} height={20} /> CSS</li>
+
+      </ul>
+    ),
+  },
+  {
+    title: "skills-b",
+    id: "skills-b",
+    content: (
+      <ul className="flex flex-col gap-2 list-disc pl-2" >
 
 
         <li className="flex items-center gap-2"> <Image src={nodeIcon} alt="HTML Icon" width={20} height={20} /> Node.js</li>
         <li className="flex items-center gap-2"><Image src={gitIcon} alt="HTML Icon" width={20} height={20} /> Git - Github</li>
         <li className="flex items-center gap-2"> <Image src={firebaseIcon} alt="HTML Icon" width={20} height={20} />Firebase</li>
         <li className="flex items-center gap-2"> <Image src={mysqlIcon} alt="HTML Icon" width={20} height={20} />MySQL</li>
-        <li className="flex items-center gap-2"><Image src={javascriptIcon} alt="HTML Icon" width={20} height={20} /> Javascript</li>
-        <li className="flex items-center gap-2"><Image src={reactIcon} alt="HTML Icon" width={20} height={20} /> React.js</li>
-        <li className="flex items-center gap-2"><Image src={nextIcon} alt="HTML Icon" width={20} height={20} /> Next.js</li>
-        <li className="flex items-center gap-2"> <Image src={htmlIcon} alt="HTML Icon" width={20} height={20} /> HTML</li>
-        <li className="flex items-center gap-2"><Image src={cssIcon} alt="HTML Icon" width={20} height={20} /> CSS</li>
+       
 
       </ul>
     ),
@@ -82,7 +92,14 @@ const AboutSection = () => {
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
-              Habilidades
+               Front-end
+            </TabButton>
+
+            <TabButton
+              selectTab={() => handleTabChange("skills-b")}
+              active={tab === "skills-b"}
+            >
+               Back-end
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}

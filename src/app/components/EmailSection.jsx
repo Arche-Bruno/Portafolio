@@ -2,6 +2,7 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailIcon from '@mui/icons-material/Mail';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import Link from "next/link";
 import Image from "next/image";
 import web from "../images/web2.png"
@@ -26,6 +27,11 @@ const EmailSection = () => {
               style={{ color: "white" }}
             ></LinkedInIcon>
           </Link>
+          <Link href="https://github.com/Arche-Bruno" target="_blank">
+        
+        <GitHubIcon fontSize="large" style={{ color: "white" }} />
+     
+    </Link>
           <Link href="mailto:bruno9039@hotmail.com" passHref target="_blank">
           
               <MailIcon fontSize="large" style={{ color: "white" }} />

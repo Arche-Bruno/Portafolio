@@ -7,7 +7,8 @@ import proyect2Image from '../images/imgProyects/proyect2.png';
 import proyect3Image from '../images/imgProyects/proyect3.png';
 import proyect4Image from '../images/imgProyects/proyect4.png';
 import proyect5Image from '../images/imgProyects/proyect5.png';
-import proyect6Image from "../images/imgProyects/proyect6.png"
+import proyect6Image from "../images/imgProyects/proyect6.png";
+import proyect7Image from "../images/imgProyects/proyect7.png"
 import ProjectTag from './ProjectTag';
 
 
@@ -17,7 +18,7 @@ const projectsData = [
    title:'Cachueleate.com',
    description:'Una red social para encontrar trabajo, publicar empleos y promocionar servicios',
    image:proyect1Image,
-   tag:['Todos', 'Web'],
+   tag:['Todos','React.js'],
    alt:"socialMedia",
    url:"https://cachueleate-3626d.firebaseapp.com/",
    
@@ -27,7 +28,7 @@ const projectsData = [
    title:'Nuevos Horizontes',
    description:'Una web dedicada a ofrecer una amplia variedad de opciones de viaje a todo el mundo',
    image:proyect2Image,
-   tag:['Todos', 'Web'],
+   tag:['Todos', 'Html, Css y Js'],
    alt:"baa",
    url:"https://tubular-chimera-0af732.netlify.app/",
   },
@@ -36,7 +37,7 @@ const projectsData = [
    title:'Acme',
    description:'Una web dedicada a venta de licores al por mayor y menor',
    image:proyect3Image,
-   tag:['Todos', 'Web'],
+   tag:['Todos','React.js'],
    alt:"bt",
    url:"https://bar-business-ca236.web.app/",
   },
@@ -45,7 +46,7 @@ const projectsData = [
    title:'Play- Piedra, Papel o tijera',
    description:'Web-game multijugador entre usuarios en tiempo real',
    image:proyect4Image,
-   tag:['Todos', 'Mobile'],
+   tag:['Todos','React.js'],
    alt:"as",
    url:"https://kvoo-4ce98.web.app/login",
   },
@@ -54,7 +55,7 @@ const projectsData = [
    title:'Store',
    description:'Ecommerce - venta de ropas ',
    image:proyect5Image,
-   tag:['Todos', 'Mobile'],
+   tag:['Todos','Html, Css y Js'],
    alt:"aa",
    url:"https://65021b1075adcf466873301d--unique-blini-38ab97.netlify.app/",
   },
@@ -63,9 +64,18 @@ const projectsData = [
     title:'Web-info',
     description:'construction website',
     image:proyect6Image,
-    tag:['Todos', 'Mobile'],
+    tag:['Todos','React.js'],
     alt:"aa",
     url:"https://iceberg-training-peru.netlify.app/",
+   },
+   {
+    id:7,
+    title:'Web-info',
+    description:'Agencia de viajes',
+    image:proyect7Image,
+    tag:['Todos', 'Wordpress'],
+    alt:"aa",
+    url:"https://fancy-gingersnap-9425d7.netlify.app/",
    },
 
 ]
@@ -94,17 +104,24 @@ const ProyectsSection = () => {
     name='Todos'
     isSelected={tag==='Todos'}
   />
-         {/* <ProjectTag 
+    <ProjectTag 
     onClick={handleTagChange}
-    name='Web'
-    isSelected={tag==='Web'}
+    name='React.js'
+    isSelected={tag==='React.js'}
+  /> 
+    <ProjectTag 
+    onClick={handleTagChange}
+    name='Wordpress'
+    isSelected={tag==='Wordpress'}
+  /> 
+         <ProjectTag 
+    onClick={handleTagChange}
+    name='Html, Css y Js'
+    isSelected={tag==='Html, Css y Js'}
   /> 
   
-  <ProjectTag 
-    onClick={handleTagChange}
-    name='Mobile'
-    isSelected={tag==='Mobile'}
-  />  */}
+
+
         </div>
         <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
             {filteredProjects.map((project)=>(
