@@ -9,6 +9,7 @@ import javascriptIcon from "../images/svgs/js.svg"
 import nextIcon from "../images/svgs/next.svg"
 import reactIcon from "../images/svgs/react.svg"
 import cssIcon from "../images/svgs/css.svg"
+import wordpress from "../images/svgs/wordicon.png"
 
 import Image from "next/image";
 import imgPc from "../images/compu.jpg";
@@ -24,6 +25,7 @@ const TAB_DATA = [
         <li className="flex items-center gap-2"><Image src={reactIcon} alt="HTML Icon" width={20} height={20} /> React.js</li>
         <li className="flex items-center gap-2"><Image src={nextIcon} alt="HTML Icon" width={20} height={20} /> Next.js</li>
         <li className="flex items-center gap-2"> <Image src={htmlIcon} alt="HTML Icon" width={20} height={20} /> HTML</li>
+        <li className="flex items-center gap-2"> <Image src={wordpress} alt="HTML Icon" width={20} height={20} /> Wordpress</li>
         <li className="flex items-center gap-2"><Image src={cssIcon} alt="HTML Icon" width={20} height={20} /> CSS</li>
 
       </ul>

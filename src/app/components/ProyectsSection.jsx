@@ -8,7 +8,9 @@ import proyect3Image from '../images/imgProyects/proyect3.png';
 import proyect4Image from '../images/imgProyects/proyect4.png';
 import proyect5Image from '../images/imgProyects/proyect5.png';
 import proyect6Image from "../images/imgProyects/proyect6.png";
-import proyect7Image from "../images/imgProyects/proyect7.png"
+import proyect7Image from "../images/imgProyects/proyect7.png";
+import proyect8Image from "../images/imgProyects/proyect8.png";
+import proyect9Image from "../images/imgProyects/proyect9.png";
 import ProjectTag from './ProjectTag';
 
 
@@ -34,12 +36,12 @@ const projectsData = [
   },
   {
    id:3,
-   title:'Acme',
-   description:'Una web dedicada a venta de licores al por mayor y menor',
-   image:proyect3Image,
-   tag:['Todos','React.js'],
+   title:'Jucumaru',
+   description:'una página web dedicada al apasionante mundo de la miel. Diseñada con atención al detalle',
+   image:proyect9Image,
+   tag:['Todos','Html, Css y Js'],
    alt:"bt",
-   url:"https://bar-business-ca236.web.app/",
+   url:"https://65f32330a7ffb3f91dc2f290--monumental-brigadeiros-7033c0.netlify.app/",
   },
   {
    id:4,
@@ -52,7 +54,7 @@ const projectsData = [
   },
   {
    id:5,
-   title:'Store',
+   title:'Tienda',
    description:'Ecommerce - venta de ropas ',
    image:proyect5Image,
    tag:['Todos','Html, Css y Js'],
@@ -62,22 +64,43 @@ const projectsData = [
   {
     id:6,
     title:'Web-info',
-    description:'construction website',
+    description:'Veterinaría',
+  
+    image:proyect8Image,
+  
+    tag:['Todos', 'Wordpress'],
+    alt:"aa",
+    url:"https://65f22d470171f3408d92af63--stately-lebkuchen-5dc488.netlify.app/",
+  
+   },
+  {
+    id:7,
+    title:'Pagina de Contructora',
+    description:'Diseñada para capturar la esencia de la industria, esta plataforma ofrece una ventana virtual a nuestros servicios, proyectos destacados y filosofía de trabajo.',
     image:proyect6Image,
     tag:['Todos','React.js'],
     alt:"aa",
     url:"https://iceberg-training-peru.netlify.app/",
    },
+
    {
-    id:7,
+    id:8,
     title:'Web-info',
-    description:'Agencia de viajes',
+    description:' Una página web dedicada al emocionante mundo de los viajes. Diseñada para despertar la pasión por explorar nuevos destinos',
     image:proyect7Image,
     tag:['Todos', 'Wordpress'],
     alt:"aa",
     url:"https://fancy-gingersnap-9425d7.netlify.app/",
    },
-
+   {
+    id:9,
+    title:'Acme',
+    description:'Una web dedicada a venta de licores al por mayor y menor',
+    image:proyect3Image,
+    tag:['Todos','React.js'],
+    alt:"bt",
+    url:"https://bar-business-ca236.web.app/",
+   },
 ]
 
 const ProyectsSection = () => {
