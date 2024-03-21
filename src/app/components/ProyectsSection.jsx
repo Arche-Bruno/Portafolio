@@ -51,7 +51,7 @@ const projectsData = [
    image:proyect10Image,
    tag:['Todos','Wordpress'],
    alt:"as",
-   url:"https://65fb87944405a8493dae5dbf--cosmic-kangaroo-22affa.netlify.app/",
+   url:"https://65fc67961fd3fe49b05baaec--glistening-fenglisu-3c92d3.netlify.app/",
   },
   {
    id:5,
