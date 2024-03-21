@@ -11,6 +11,7 @@ import proyect6Image from "../images/imgProyects/proyect6.png";
 import proyect7Image from "../images/imgProyects/proyect7.png";
 import proyect8Image from "../images/imgProyects/proyect8.png";
 import proyect9Image from "../images/imgProyects/proyect9.png";
+import proyect10Image from "../images/imgProyects/proyect10.png";
 import ProjectTag from './ProjectTag';
 
 
@@ -45,12 +46,12 @@ const projectsData = [
   },
   {
    id:4,
-   title:'Play- Piedra, Papel o tijera',
-   description:'Web-game multijugador entre usuarios en tiempo real',
-   image:proyect4Image,
-   tag:['Todos','React.js'],
+   title:'Ecommerce de Moda',
+   description:'Mi proyecto de ecommerce de moda ofrece una plataforma innovadora para los amantes de la moda que buscan una experiencia de compra conveniente y emocionante. ',
+   image:proyect10Image,
+   tag:['Todos','Wordpress'],
    alt:"as",
-   url:"https://kvoo-4ce98.web.app/login",
+   url:"https://65fb87944405a8493dae5dbf--cosmic-kangaroo-22affa.netlify.app/",
   },
   {
    id:5,
@@ -63,8 +64,8 @@ const projectsData = [
   },
   {
     id:6,
-    title:'Web-info',
-    description:'Veterinaría',
+    title:'Web-Veterinaria',
+    description:'Nuestra página web presenta un diseño limpio, moderno e intuitivo que facilita la navegación tanto para propietarios de mascotas como para personal veterinario. ',
   
     image:proyect8Image,
   
@@ -100,6 +101,15 @@ const projectsData = [
     tag:['Todos','React.js'],
     alt:"bt",
     url:"https://bar-business-ca236.web.app/",
+   },
+   {
+    id:10,
+    title:'Play- Piedra, Papel o tijera',
+    description:'Web-game multijugador entre usuarios en tiempo real',
+    image:proyect4Image,
+    tag:['Todos','React.js'],
+    alt:"as",
+    url:"https://kvoo-4ce98.web.app/login",
    },
 ]
 
