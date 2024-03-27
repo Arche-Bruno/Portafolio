@@ -6,6 +6,7 @@ import gitIcon from "../images/svgs/git.svg"
 import mysqlIcon from "../images/svgs/mysql.svg"
 import firebaseIcon from "../images/svgs/firebase.svg"
 import javascriptIcon from "../images/svgs/js.svg"
+import tsIcon from "../images/svgs/typeScript.svg"
 import nextIcon from "../images/svgs/next.svg"
 import reactIcon from "../images/svgs/react.svg"
 import cssIcon from "../images/svgs/css.svg"
@@ -22,6 +23,7 @@ const TAB_DATA = [
     content: (
       <ul className="flex flex-col gap-2 list-disc pl-2" >
         <li className="flex items-center gap-2"><Image src={javascriptIcon} alt="HTML Icon" width={20} height={20} /> Javascript</li>
+        <li className="flex items-center gap-2"><Image src={tsIcon} alt="HTML Icon" width={20} height={20} /> TypeScript</li>
         <li className="flex items-center gap-2"><Image src={reactIcon} alt="HTML Icon" width={20} height={20} /> React.js</li>
         <li className="flex items-center gap-2"><Image src={nextIcon} alt="HTML Icon" width={20} height={20} /> Next.js</li>
         <li className="flex items-center gap-2"> <Image src={htmlIcon} alt="HTML Icon" width={20} height={20} /> HTML</li>
