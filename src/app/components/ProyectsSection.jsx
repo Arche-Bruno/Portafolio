@@ -12,6 +12,7 @@ import proyect7Image from "../images/imgProyects/proyect7.png";
 import proyect8Image from "../images/imgProyects/proyect8.png";
 import proyect9Image from "../images/imgProyects/proyect9.png";
 import proyect10Image from "../images/imgProyects/proyect10.png";
+import proyect11Image from "../images/imgProyects/proyect11.png";
 import ProjectTag from './ProjectTag';
 
 
@@ -46,7 +47,7 @@ const projectsData = [
   },
   {
    id:4,
-   title:'Ecommerce de Moda',
+   title:'Ecommerce de Moda - metodo de pago',
    description:'Mi proyecto de ecommerce de moda ofrece una plataforma innovadora para los amantes de la moda que buscan una experiencia de compra conveniente y emocionante. ',
    image:proyect10Image,
    tag:['Todos','Wordpress'],
@@ -55,12 +56,12 @@ const projectsData = [
   },
   {
    id:5,
-   title:'Tienda',
-   description:'Ecommerce - venta de ropas ',
-   image:proyect5Image,
-   tag:['Todos','Html, Css y Js'],
+   title:'Ecommerce de Muebles - por whatsapp',
+   description:'Se diseñó para facilitar la compra de muebles mediante una integración directa con WhatsApp, permitiendo a los usuarios navegar por el catálogo de productos.',
+   image:proyect11Image,
+   tag:['Todos','Wordpress'],
    alt:"aa",
-   url:"https://65021b1075adcf466873301d--unique-blini-38ab97.netlify.app/",
+   url:"https://mueblesonline.netlify.app/",
   },
   {
     id:6,
@@ -111,6 +112,13 @@ const projectsData = [
     alt:"as",
     url:"https://kvoo-4ce98.web.app/login",
    },
+   {id:11,
+    title:'Tienda',
+    description:'Ecommerce - venta de ropas ',
+    image:proyect5Image,
+    tag:['Todos','Html, Css y Js'],
+    alt:"aa",
+    url:"https://65021b1075adcf466873301d--unique-blini-38ab97.netlify.app/",}
 ]
 
 const ProyectsSection = () => {
