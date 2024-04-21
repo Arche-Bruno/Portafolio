@@ -13,6 +13,8 @@ import proyect8Image from "../images/imgProyects/proyect8.png";
 import proyect9Image from "../images/imgProyects/proyect9.png";
 import proyect10Image from "../images/imgProyects/proyect10.png";
 import proyect11Image from "../images/imgProyects/proyect11.png";
+import proyect12Image from "../images/imgProyects/proyect12.png";
+import proyect13Image from "../images/imgProyects/proyect13.png";
 import ProjectTag from './ProjectTag';
 
 
@@ -28,7 +30,17 @@ const projectsData = [
    
   },
   {
-   id:2,
+    id:2,
+    title:'Dashboard design',
+    description:'Construí un Dashboard y es completamente responsive, con modo oscuro y claro lo que significa que se adapta perfectamente a diferentes dispositivos y tamaños de pantalla.',
+    image:proyect13Image,
+    tag:['Todos','React.js'],
+    alt:"Dashboard",
+    url:"https://stirring-croissant-4da085.netlify.app/",
+    
+   },
+  {
+   id:3,
    title:'Nuevos Horizontes',
    description:'Una web dedicada a ofrecer una amplia variedad de opciones de viaje a todo el mundo',
    image:proyect2Image,
@@ -37,7 +49,7 @@ const projectsData = [
    url:"https://tubular-chimera-0af732.netlify.app/",
   },
   {
-   id:3,
+   id:4,
    title:'Jucumaru',
    description:'una página web dedicada al apasionante mundo de la miel. Diseñada con atención al detalle',
    image:proyect9Image,
@@ -46,7 +58,7 @@ const projectsData = [
    url:"https://65f32330a7ffb3f91dc2f290--monumental-brigadeiros-7033c0.netlify.app/",
   },
   {
-   id:4,
+   id:5,
    title:'Ecommerce de Moda - metodo de pago',
    description:'Mi proyecto de ecommerce de moda ofrece una plataforma innovadora para los amantes de la moda que buscan una experiencia de compra conveniente y emocionante. ',
    image:proyect10Image,
@@ -55,7 +67,7 @@ const projectsData = [
    url:"https://65fc67961fd3fe49b05baaec--glistening-fenglisu-3c92d3.netlify.app/",
   },
   {
-   id:5,
+   id:6,
    title:'Ecommerce de Muebles - por whatsapp',
    description:'Se diseñó para facilitar la compra de muebles mediante una integración directa con WhatsApp, permitiendo a los usuarios navegar por el catálogo de productos.',
    image:proyect11Image,
@@ -64,7 +76,7 @@ const projectsData = [
    url:"https://mueblesonline.netlify.app/",
   },
   {
-    id:6,
+    id:7,
     title:'Web-Veterinaria',
     description:'Nuestra página web presenta un diseño limpio, moderno e intuitivo que facilita la navegación tanto para propietarios de mascotas como para personal veterinario. ',
   
@@ -76,7 +88,7 @@ const projectsData = [
   
    },
   {
-    id:7,
+    id:8,
     title:'Pagina de Contructora',
     description:'Diseñada para capturar la esencia de la industria, esta plataforma ofrece una ventana virtual a nuestros servicios, proyectos destacados y filosofía de trabajo.',
     image:proyect6Image,
@@ -86,7 +98,7 @@ const projectsData = [
    },
 
    {
-    id:8,
+    id:9,
     title:'Web-info',
     description:' Una página web dedicada al emocionante mundo de los viajes. Diseñada para despertar la pasión por explorar nuevos destinos',
     image:proyect7Image,
@@ -95,7 +107,17 @@ const projectsData = [
     url:"https://fancy-gingersnap-9425d7.netlify.app/",
    },
    {
-    id:9,
+    id:10,
+    title:'Dashboard-cachueleate',
+    description:'Este dashboard cuenta con un diseño cuidadosamente elaborado para brindar una experiencia visualmente atractiva y fácil de usar.',
+    image:proyect12Image,
+    tag:['Todos','React.js'],
+    alt:"socialMedia",
+    url:"https://cachueleate-3626d.firebaseapp.com/",
+    
+   },
+   {
+    id:11,
     title:'Acme',
     description:'Una web dedicada a venta de licores al por mayor y menor',
     image:proyect3Image,
@@ -104,7 +126,7 @@ const projectsData = [
     url:"https://bar-business-ca236.web.app/",
    },
    {
-    id:10,
+    id:12,
     title:'Play- Piedra, Papel o tijera',
     description:'Web-game multijugador entre usuarios en tiempo real',
     image:proyect4Image,
@@ -112,7 +134,7 @@ const projectsData = [
     alt:"as",
     url:"https://kvoo-4ce98.web.app/login",
    },
-   {id:11,
+   {id:13,
     title:'Tienda',
     description:'Ecommerce - venta de ropas ',
     image:proyect5Image,
