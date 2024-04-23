@@ -15,6 +15,7 @@ import proyect10Image from "../images/imgProyects/proyect10.png";
 import proyect11Image from "../images/imgProyects/proyect11.png";
 import proyect12Image from "../images/imgProyects/proyect12.png";
 import proyect13Image from "../images/imgProyects/proyect13.png";
+import proyect14Image from "../images/imgProyects/proyect14.png";
 import ProjectTag from './ProjectTag';
 
 
@@ -31,12 +32,12 @@ const projectsData = [
   },
   {
     id:2,
-    title:'Dashboard design',
-    description:'Construí un Dashboard y es completamente responsive, con modo oscuro y claro lo que significa que se adapta perfectamente a diferentes dispositivos y tamaños de pantalla.',
-    image:proyect13Image,
+    title:'Clon de AFP | Integra',
+    description:'Hice un clon de AFP Integra. En esta aplicación, puede actualizar su nombre, correo electrónico y dinero, y la aplicación recupera sus datos y se los muestra. La aplicación fue construida con React.js y Tailwind',
+    image:proyect14Image,
     tag:['Todos','React.js'],
     alt:"Dashboard",
-    url:"https://stirring-croissant-4da085.netlify.app/",
+    url:"https://afpintegraclone.netlify.app/",
     
    },
   {
@@ -108,6 +109,16 @@ const projectsData = [
    },
    {
     id:10,
+    title:'Dashboard design',
+    description:'Construí un Dashboard y es completamente responsive, con modo oscuro y claro lo que significa que se adapta perfectamente a diferentes dispositivos y tamaños de pantalla.',
+    image:proyect13Image,
+    tag:['Todos','React.js'],
+    alt:"Dashboard",
+    url:"https://stirring-croissant-4da085.netlify.app/",
+    
+   },
+   {
+    id:11,
     title:'Dashboard-cachueleate',
     description:'Este dashboard cuenta con un diseño cuidadosamente elaborado para brindar una experiencia visualmente atractiva y fácil de usar.',
     image:proyect12Image,
@@ -117,7 +128,7 @@ const projectsData = [
     
    },
    {
-    id:11,
+    id:12,
     title:'Acme',
     description:'Una web dedicada a venta de licores al por mayor y menor',
     image:proyect3Image,
@@ -126,7 +137,7 @@ const projectsData = [
     url:"https://bar-business-ca236.web.app/",
    },
    {
-    id:12,
+    id:13,
     title:'Play- Piedra, Papel o tijera',
     description:'Web-game multijugador entre usuarios en tiempo real',
     image:proyect4Image,
@@ -134,7 +145,7 @@ const projectsData = [
     alt:"as",
     url:"https://kvoo-4ce98.web.app/login",
    },
-   {id:13,
+   {id:14,
     title:'Tienda',
     description:'Ecommerce - venta de ropas ',
     image:proyect5Image,
