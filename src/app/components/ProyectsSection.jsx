@@ -124,7 +124,7 @@ const projectsData = [
     image:proyect12Image,
     tag:['Todos','React.js'],
     alt:"socialMedia",
-    url:"https://cachueleate-3626d.firebaseapp.com/",
+    url:"https://whimsical-bubblegum-6d7ea2.netlify.app/",
     
    },
    {

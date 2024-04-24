@@ -54,9 +54,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
+         <li>Desarrollador de Software - Instituto (Senati) </li>
         <li>Front-End - Alura Latam</li>
-        <li>Desarrollador de Software - Senati(incompleto)</li>
-        <li>Front-End - Academlo</li>
       </ul>
     ),
   },
