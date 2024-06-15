@@ -33,7 +33,7 @@ const projectsData = [
   },
   {
     id:2,
-    title:'Clon de AFP | Integra',
+    title:'Clon de BMW',
     description:'Clone sobre la pagina oficial de BMW, aún en proceso de la finalización',
     image:proyect15Image,
     tag:['Todos','Next.js'],
