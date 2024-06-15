@@ -10,6 +10,7 @@ import tsIcon from "../images/svgs/typeScript.svg"
 import nextIcon from "../images/svgs/next.svg"
 import reactIcon from "../images/svgs/react.svg"
 import cssIcon from "../images/svgs/css.svg"
+import tailwind from "../images/svgs/tailwind.svg"
 import wordpress from "../images/svgs/wordicon.png"
 
 import Image from "next/image";
@@ -28,6 +29,7 @@ const TAB_DATA = [
         <li className="flex items-center gap-2"><Image src={nextIcon} alt="HTML Icon" width={20} height={20} /> Next.js</li>
         <li className="flex items-center gap-2"> <Image src={htmlIcon} alt="HTML Icon" width={20} height={20} /> HTML</li>
         <li className="flex items-center gap-2"> <Image src={wordpress} alt="HTML Icon" width={20} height={20} /> Wordpress</li>
+        <li className="flex items-center gap-2"><Image src={tailwind} alt="HTML Icon" width={20} height={20} /> Tailwind</li>
         <li className="flex items-center gap-2"><Image src={cssIcon} alt="HTML Icon" width={20} height={20} /> CSS</li>
 
       </ul>
