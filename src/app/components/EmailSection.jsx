@@ -37,7 +37,7 @@ const EmailSection = () => {
               <MailIcon fontSize="large" style={{ color: "white" }} />
             
           </Link>
-          <Link href="https://wa.me/51956639056" target="_blank">
+          <Link href="https://wa.me/51957496104" target="_blank">
         
               <WhatsAppIcon fontSize="large" style={{ color: "white" }} />
            
