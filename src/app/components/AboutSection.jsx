@@ -66,7 +66,9 @@ const TAB_DATA = [
     id: "experience",
     content: (
       <ul className="list-disc pl-2">
+        <li>Desarrollador web - Deister Software</li>
         <li>Red Social - Cachueleate.com</li>
+        <li>Creación de Pagina web - capacitaciones.com (Cursos)</li>
         <li>Creación de Pagina web - Nuevos Horizontes.com (Agencia de viajes)</li>
         <li>Creación de Pagina web - iceberg-training.com (Constructora)</li>
       </ul>
