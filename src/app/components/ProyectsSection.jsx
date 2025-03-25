@@ -19,6 +19,7 @@ import proyect14Image from "../images/imgProyects/proyect14.png";
 import proyect15Image from "../images/imgProyects/proyect15.png";
 import proyect16Image from "../images/imgProyects/proyect16.png";
 import proyect17Image from "../images/imgProyects/proyect17.png";
+import proyect18Image from "../images/imgProyects/proyect18.png";
 import ProjectTag from './ProjectTag';
 
 
@@ -121,8 +122,17 @@ const projectsData = [
     url:"https://65f22d470171f3408d92af63--stately-lebkuchen-5dc488.netlify.app/",
   
    },
-  {
+   {
     id:11,
+    title:'Plataforma de Capacitación',
+    description:' Diseñé esta plataforma web pensando en quienes buscan mejorar sus habilidades y crecer profesionalmente.',
+    image:proyect18Image,
+    tag:['Todos', 'Wordpress'],
+    alt:"aa",
+    url:"https://paconter.com/capacitaciones/",
+   },
+  {
+    id:12,
     title:'Pagina de Contructora',
     description:'Diseñada para capturar la esencia de la industria, esta plataforma ofrece una ventana virtual a nuestros servicios, proyectos destacados y filosofía de trabajo.',
     image:proyect6Image,
@@ -132,7 +142,7 @@ const projectsData = [
    },
 
    {
-    id:12,
+    id:13,
     title:'Web-info',
     description:' Una página web dedicada al emocionante mundo de los viajes. Diseñada para despertar la pasión por explorar nuevos destinos',
     image:proyect7Image,
@@ -141,7 +151,7 @@ const projectsData = [
     url:"https://fancy-gingersnap-9425d7.netlify.app/",
    },
    {
-    id:13,
+    id:14,
     title:'Dashboard design',
     description:'Construí un Dashboard y es completamente responsive, con modo oscuro y claro lo que significa que se adapta perfectamente a diferentes dispositivos y tamaños de pantalla.',
     image:proyect13Image,
@@ -151,7 +161,7 @@ const projectsData = [
     
    },
    {
-    id:14,
+    id:15,
     title:'Dashboard-cachueleate',
     description:'Este dashboard cuenta con un diseño cuidadosamente elaborado para brindar una experiencia visualmente atractiva y fácil de usar.',
     image:proyect12Image,
@@ -161,7 +171,7 @@ const projectsData = [
     
    },
    {
-    id:15,
+    id:16,
     title:'Acme',
     description:'Una web dedicada a venta de licores al por mayor y menor',
     image:proyect3Image,
@@ -170,7 +180,7 @@ const projectsData = [
     url:"https://bar-business-ca236.web.app/",
    },
    {
-    id:16,
+    id:17,
     title:'Play- Piedra, Papel o tijera',
     description:'Web-game multijugador entre usuarios en tiempo real',
     image:proyect4Image,
@@ -178,7 +188,7 @@ const projectsData = [
     alt:"as",
     url:"https://kvoo-4ce98.web.app/login",
    },
-   {id:17,
+   {id:18,
     title:'Tienda',
     description:'Ecommerce - venta de ropas ',
     image:proyect5Image,
