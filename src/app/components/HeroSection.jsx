@@ -5,7 +5,7 @@ import React from "react";
 import imgUser from "./../images/img3.png";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-import cv from "../cv/cvBruno.pdf"
+import cv from "../cv/CV_BRUNOMALLCCO_2024.pdf"
 
 
 const handleDownloadCV = () => {
