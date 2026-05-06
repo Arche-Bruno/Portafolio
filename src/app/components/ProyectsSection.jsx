@@ -40,7 +40,7 @@ id: 2,
 title: 'O&S Consultores',
 description: 'Desarrollo de la web corporativa de O&S Consultores. Proyecto orientado a transmitir profesionalidad, claridad de servicios y presencia digital sólida.',
 image: proyect19Image,
-tag: ['Todos', 'WordPress', 'Frontend'],
+tag: ['Todos', 'Wordpress', 'Frontend'],
 alt: 'O&S Consultores website',
 url: "https://oysconsultores.com/",
 }
