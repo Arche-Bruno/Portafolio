@@ -26,7 +26,7 @@ const HeroSection = () => {
         <br />
             <TypeAnimation
       sequence={[
-        // Same substring at the start will only be typed out once, initially
+        // Same substring at the stadrt will only be typed out once, initially
         'desarrollador Full-Stack',
         1000,
         'diseñador UI/UX',
