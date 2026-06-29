@@ -62,7 +62,7 @@ url: "https://oysconsultores.com/",
     image:proyect16Image,
     tag:['Todos','Wordpress'],
     alt:"Dashboard",
-    url:"https://www.deister.net/",
+    url:"https://www.deister.pe/",
     
    },
    {
